@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transaction App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="form">
+        <div class="input">
+          <div class="title-amount">
+              <input type="number" id="amount" placeholder="Enter amount" required/>
+              <input type="text" id="title" placeholder="Enter title" required/>
+          </div>
+  
+          <div class="category-radio">
+              <div class="income-radio">
+                  <input type="radio" class="radio-btn" id="income" name="category" value="Income" required/>
+                  <label for="income">Income</label>
+              </div>
+              <div class="expense-radio">
+                  <input type="radio" class="radio-btn" id="expense" name="category" value="Expense" required/>
+                  <label for="expense">Expense</label>
+              </div>
+          </div>
+          <input class="add" id="add_btn" type="submit" value="Add">
+        </div>
+      </form>
+      <div class="history">
+        <h4 class="heading">History</h4>
+        <hr>
+        <div class="history-box" id="Flower">
+            <p class="title">Flower</p>
+            <p class="amount">-$20</p>
+        </div>
+        <div class="history-box" id="Salary">
+            <p class="title">Salary</p>
+            <p class="amount">+$300</p>
+        </div>
+        <div class="history-box" id="Book">
+            <p class="title">Book</p>
+            <p class="amount">-$10</p>
+        </div>
+        <div class="history-box" id="Camera">
+            <p class="title">Camera</p>
+            <p class="amount">+$150</p>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height:fit-content;
+    margin: 0 auto;
+    padding: 4rem;
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+.input input{
+    width: fit-content;
+}
+.radio-btn{
+    display: inline-block;
+    width: fit-content;
+}
+.title-amount{
+    display: flex;
+    flex-direction: column ;
+}
+.title-amount input{
+    margin: 10px 0;
+}
+.input label{
+    display: inline-block;
+}
+.category-radio{
+    display: flex;
+    flex-direction: column;
+}
+.add{
+    width: 60px;
+    height: 35px;
+    background: rgb(93, 93, 228);
+    color:white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.history{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.history h4{
+    font-size: 24px;
+}
+hr{
+    width: 60%;
+    margin-bottom: 10px;
+}
+.history-box{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 60%;
+    cursor: pointer;
+}
+#Flower{
+    border-right: 5px red solid ;
+}
+#Salary{
+    border-right: 5px rgb(28, 150, 28) solid ;
+}
+#Book{
+    border-right: 5px red solid ;
+}
+#Camera{
+    border-right: 5px rgb(28, 150, 28) solid ;
+}
